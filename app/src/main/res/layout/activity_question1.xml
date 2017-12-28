@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ajarihantjain54gmail.task5.question1">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "\n \tWho has scored the\n\t\t\t\tfastest T-20 century? \n "
+            android:textSize="30dp"
+            android:textColor="#581"/>
+
+        <Button
+            android:id="@+id/a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RohitSharma"
+            android:onClick="Correct1"/>
+        <Button
+            android:id="@+id/a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ross Taylor"
+            android:onClick="Wrong1"
+            />
+        <Button
+            android:id="@+id/a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chris Gayle"
+            android:onClick="Wrong1"/>
+        <Button
+            android:id="@+id/a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stuart Binny"
+            android:onClick="Wrong1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n"/>
+        <Button
+            android:id="@+id/afinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finish "
+            android:textSize="20dp"
+            android:onClick="End1"
+            android:textColor="#953"/>
+
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
